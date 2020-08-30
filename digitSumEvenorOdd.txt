@@ -1,0 +1,13 @@
+        int num=Math.abs(input1),rem=0,esum=0,osum=0;
+		while(num!=0)
+		{
+            rem=num%10;
+			if(rem%2!=0){osum+=rem;}
+			else{esum+=rem;}
+			num/=10;
+		}
+		if(input2.equals("even")){return esum;}
+		else{return osum;}    
+
+
+Link to pratice : https://tests.mettl.com/test-window/a05abbcf

@@ -1,0 +1,9 @@
+        int num=Math.abs(input1),rem=0,sum=0;
+		while(num!=0)
+		{
+            rem=num%10;
+			if(rem%2==0){sum+=rem;}
+			num/=10;
+		}
+		return sum;
+Link to pratice : https://tests.mettl.com/test-window/b55d1714
